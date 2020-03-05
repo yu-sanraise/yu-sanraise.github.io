@@ -1,0 +1,38 @@
+@media (max-width: 1000px) {
+    /* lessonクラスのCSSを指定してください */
+    .skill {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+
+    .heading h2 {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 670px) {
+    .skill {
+      width: 100%;
+    }
+
+    footer {
+      text-align: center;
+    }
+  }
+
+  .top-wrapper {
+    text-align: left;
+    padding-top: 130px;
+  }
+
+  .profile-wrapper h4 {
+    font-size: 24px;
+  }
+
+  .profile-wrapper p {
+    font-size: 14px;
+  }
