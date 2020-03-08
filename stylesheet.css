@@ -39,6 +39,16 @@ li {
     text-align: -webkit-match-parent;
 }
 
+.li a {
+    color: black;
+    width: 30%;
+    display: inline-block;
+    line-height: 65px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    transition: all 1s;
+}
+
 .clear {
     clear: left;
 }
@@ -368,3 +378,17 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+@media (max-width: 1000px) {
+    .item {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 670px) {
+    .item {
+      width: 100%;
+      ;
+    }
+  }
+
