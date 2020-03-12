@@ -222,7 +222,7 @@ h1 {
 }
 
 .skill-text {
-    text-align: center;
+    text-align: left;
     width: 80%;
     display: inline-block;
 }
