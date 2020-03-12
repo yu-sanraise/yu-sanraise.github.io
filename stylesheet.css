@@ -230,6 +230,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    text-align: left;
 }
 
 .skill-icon i {
@@ -384,3 +385,17 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+@media (max-width: 1000px) {
+    .item {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 670px) {
+    .item {
+      width: 100%;
+      ;
+    }
+  }
+
