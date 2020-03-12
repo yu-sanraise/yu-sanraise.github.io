@@ -192,6 +192,10 @@ h2 {
     margin-right: 10px;
 }
 
+.skill {
+    text-align: center;
+}
+
 .skill-icon i {
     max-width: 100%;
     height: auto;
@@ -388,4 +392,3 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
