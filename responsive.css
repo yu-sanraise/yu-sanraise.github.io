@@ -19,8 +19,8 @@
       max-width: 100%;
     }
 
-    img {
-        max-width: 50%;
+    .profile-image {
+        text-align: center;
     }
     
     .skill {
