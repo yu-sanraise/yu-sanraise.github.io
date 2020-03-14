@@ -17,7 +17,6 @@
   @media (max-width: 670px) {
     header {
       max-width: 100%;
-      text-align: center;
     }
 
     header li {
@@ -90,3 +89,4 @@
     height: 800px;
   }
 }
+
