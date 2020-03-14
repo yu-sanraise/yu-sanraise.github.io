@@ -192,11 +192,9 @@ h2 {
     margin-right: 10px;
 }
 
-.skill {
-    text-align: center;
-}
 
 .skill-icon {
+    float: left;
     width: 30%;
     display: inline-block;
 }
@@ -231,6 +229,7 @@ h1 {
 }
 
 .skill-text {
+    text-align: left;
     width: 70%;
     text-align: left;
     display: inline-block;
@@ -399,3 +398,4 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
