@@ -23,6 +23,11 @@
         font-size: 15px
     }
 
+    .profile {
+        flex-direction: column;
+        display: inline-block;
+    }
+
 
     .profile-image {
         margin: 0 auto;
@@ -35,9 +40,15 @@
         width: 90%;
     }
 
-    p {
+    .profile-text p {
         text-align: left;
     }
+
+    .text-container {
+        width: 100%;
+        margin: 0 auto
+    }
+
     
     .skill {
         margin: 25px auto;
@@ -89,4 +100,3 @@
     height: 800px;
   }
 }
-
