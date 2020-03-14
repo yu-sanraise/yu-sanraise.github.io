@@ -71,9 +71,10 @@ li {
 }
 
 .container {
-    max-width: 1170px;
-    padding: 0 40px;
+    width: 90%;
     margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
 }
 
 h1 {
@@ -189,12 +190,17 @@ h2 {
 }
 
 .section-title i {
-    margin-right: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: flex;
 }
 
 
 .skill-icon {
-    float: left;
     width: 30%;
     display: inline-block;
 }
@@ -398,4 +404,3 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
