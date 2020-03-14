@@ -155,6 +155,9 @@ h2 {
 .profile-image img {
     text-align: center;
     border-radius: 40px;
+    max-width: 100%;
+    height: 370px;
+    width: 300px;
 }
 
 .profile {
