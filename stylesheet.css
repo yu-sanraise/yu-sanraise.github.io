@@ -21,6 +21,10 @@ header ul {
     list-style: none
 }
 
+header li {
+    padding: 0 20px;
+}
+
 body {
     margin: 0;
 }
@@ -63,10 +67,7 @@ li {
 
 .profile-image img {
     max-width: 100%;
-    height: 370px;
-    width: 300px;
-    border-radius: 50%;
-    float: left;
+    height: auto;
 
 }
 
@@ -143,8 +144,7 @@ h2 {
 
 
 .profile-text {
-    text-align: center;
-    border-bottom: 1px solid rgba(0,0,0,0.6);
+    height: auto;
 }
 
 .profile-image {
