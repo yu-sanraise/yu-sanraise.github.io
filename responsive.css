@@ -37,8 +37,9 @@
     }
 
     .profile-text {
-        margin: 25px auto;
-        width: 90%;
+      width: 100%;
+      margin-left: 0;
+      padding: 0 20px;
     }
 
     .profile-text p {
@@ -101,4 +102,3 @@
     height: 800px;
   }
 }
-
