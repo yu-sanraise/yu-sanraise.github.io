@@ -206,7 +206,9 @@ h2 {
 }
 
 .skills {
+    font-size: 10px;
     display: flex;
+    text-align: center;
 }
 
 
