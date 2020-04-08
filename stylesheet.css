@@ -19,7 +19,8 @@ header {
 header ul {
     display: flex;
     justify-content: center;
-    list-style: none
+    list-style: none;
+    padding: 0;
 }
 
 header li {
