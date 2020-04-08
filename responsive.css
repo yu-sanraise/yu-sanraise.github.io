@@ -1,110 +1,124 @@
 @media (max-width: 1000px) {
-    /* lessonクラスのCSSを指定してください */
-    .skill {
-      width: 50%;
-      margin-bottom: 50px;
-    }
-    
-    .top-wrapper h1 {
-      font-size: 32px;
-    }
+  /* lessonクラスのCSSを指定してください */
 
-    .heading h2 {
-      font-size: 20px;
-    }
+  
+
+  .skill {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
 }
 
-@media (max-width: 768px) {
-  img {
+@media screen and (min-width: 768px) and (max-width: 1000px){
+
+img {
   display: none;
 }
+
+.profile-image {
+  text-align: center;
+  
 }
 
-  @media (max-width: 670px) {
-    header {
-      max-width: 100%;
-    }
+.text-container p {
+  text-align: left;
+}
+}
 
-    header li {
-        font-size: 15px
-        
-    }
-
-    .profile {
-        flex-direction: column;
-        display: inline-block;
-    }
-
-
-    .profile-image {
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-    }
-
-    .profile-text {
-      width: 100%;
-      margin-left: 0;
-      padding: 0 20px;
-    }
-
-    .profile-text p {
-        text-align: left;
-    }
-
-    .text-container {
-        width: 100%;
-        margin: 0 auto
-    }
-
-    
-    .skill {
-        margin: 25px auto;
-        width: 100%;
-    }
-
-    .skills {
-        flex-direction: column;
-    }
-
-    .skill h1 {
-        font-size: 18px;
-    }
-
-
-    footer {
-      text-align: center;
-    }
-
-    .section-title {
-        font-size: 20px;
-    }
-    
-
-
-  .top-wrapper {
-    text-align: left;
-    padding-top: 130px;
-  }
-
-  .profile-wrapper h4 {
-    font-size: 24px;
-  }
-
-  .profile-wrapper p {
-    font-size: 14px;
-  }
-
-  .section-title {
-    font-size: 20px;
-  }
-
-  .section-title {
-    font-size: 20px;
-  }
-
-  .contact-wrapper iframe {
+@media screen and (max-width: 670px) {
+  header {
     max-width: 100%;
-    height: 800px;
+    text-align: center;
   }
+
+  header li {
+      font-size: 15px
+      
+  }
+
+  .profile {
+      flex-direction: column;
+      display: inline-block;
+  }
+
+
+  .profile-image {
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
+  }
+
+  .profile-text {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+
+  .profile-text p {
+      text-align: left;
+  }
+
+  .text-container {
+      width: 100%;
+      margin: 0 auto
+  }
+
+  
+  .skill {
+      margin: 25px auto;
+      width: 100%;
+  }
+
+  .skills {
+      flex-direction: column;
+  }
+
+  .skill h1 {
+      font-size: 18px;
+  }
+
+
+  footer {
+    text-align: center;
+  }
+
+  .section-title {
+      font-size: 20px;
+  }
+  
+
+
+.top-wrapper {
+  text-align: left;
+  padding-top: 130px;
+}
+
+.profile-wrapper h4 {
+  font-size: 24px;
+}
+
+.profile-wrapper p {
+  font-size: 14px;
+}
+
+.section-title {
+  font-size: 20px;
+}
+
+.section-title {
+  font-size: 20px;
+}
+
+.contact-wrapper iframe {
+  max-width: 100%;
+  height: 800px;
+}
 }
